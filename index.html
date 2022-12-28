@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Clairvoyant | See the Unseen.</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link rel="icon" href="img/eye.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!--────────────────Header───────────────-->
+      <header>
+        <a class="logo" href="#home">
+          <img src="img/eye.png" alt="All-seeing eye" />
+          Clairvoyant
+        </a>
+        <nav>
+          <ul class="nav-bar">
+            <div class="bg"></div>
+            <li><a class="nav-link active" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#mockup">Mockups</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+
+          <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <!--─────────────────Home────────────────-->
+        <div id="home">
+          <div class="filter"></div>
+          <section class="intro">
+            <h3>
+              See the unseen.
+              <hr />
+            </h3>
+            <p>An AR-enabled adventure game.</p>
+            <p class="substack">
+              Help shape the Clairvoyant universe on Substack.
+            </p>
+
+            <!--────Substack─────-->
+
+            <div class="social-media">
+              <button
+                onclick="window.open('https://clairvoyantapp.substack.com/', '_blank')"
+                style="
+                  display: inline-block;
+                  padding: 12px 24px;
+                  font-size: 16px;
+                  color: #fff;
+                  background-color: #ffa500;
+                  border-radius: 4px;
+                  border: none;
+                  cursor: pointer;
+                "
+              >
+                Subscribe to Substack
+              </button>
+            </div>
+          </section>
+        </div>
+
+        <!--───────────────About───────────────-->
+        <div id="about">
+          <h3>
+            About
+            <hr />
+          </h3>
+          <p>
+            Clairvoyant is a mobile app that allows anyone to capture, combine
+            and share unique virtual objects that are hidden in the real world.
+          </p>
+          <p>
+            In the app, a player will be able to Use their AR camera to capture
+            common, rare and legendary 3D objects randomly dropped outside. Once
+            an object is captured, XP is added to the player's profile.
+          </p>
+        </div>
+
+        <!--───────────────Mockups───────────────-->
+        <div id="mockup">
+          <h3>
+            In-game Mockups
+            <hr />
+          </h3>
+          <p>Envisioned 3D objects to be discovered in the real-world</p>
+          <div class="work-box">
+            <div class="work">
+              <!--───────────────card───────────────-->
+              <div class="card">
+                <img class="work-img" src="/img/crystal.png" />
+                <div class="work-content">Crystals or gems</div>
+              </div>
+              <div class="card">
+                <img class="work-img" src="/img/forest.png" />
+                <div class="work-content">Glowing forest aura</div>
+              </div>
+              <div class="card">
+                <img class="work-img" src="/img/glowflower.png" />
+                <div class="work-content">More common flowers</div>
+              </div>
+              <div class="card">
+                <img class="work-img" src="/img/dojo.png" />
+                <div class="work-content">Larger community structures</div>
+              </div>
+              <div class="card">
+                <img class="work-img" src="/img/statute.png" />
+                <div class="work-content">Statutes or artifacts</div>
+              </div>
+              <div class="card">
+                <img class="work-img" src="/img/glowshroom.png" />
+                <div class="work-content">Luminescent vegetation</div>
+              </div>
+              <div class="card">
+                <img class="work-img" src="/img/avatar.png" />
+                <div class="work-content">Glowing biome effect</div>
+              </div>
+              <div class="card">
+                <img class="work-img" src="/img/pinkshroom.png" />
+                <div class="work-content">More common wildlife</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--──────────────Contact────────────────-->
+        <div id="contact">
+          <!--────social media links─────-->
+          <h3>
+            Contact
+            <hr />
+          </h3>
+          <p>Comment on Substack, or reach out on Twitter</p>
+          <div class="social-media">
+            <a href="https://clairvoyantapp.substack.com/" target="_blank"
+              ><img src="/img/substack-icon.png" class="substack-logo"
+            /></a>
+            <a href="https://twitter.com/jgannon_" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </main>
+      <footer class="copyright">
+        Clairvoyant, 2022 | inspired by
+        <a href="https://repl.it/@lilykhan" target="_blank">Lily Khan</a>
+      </footer>
+    </div>
+  </body>
+</html>
